@@ -1,0 +1,23 @@
+
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+ font-size: 1.3em;
+ color: black;
+}
+.board{
+ margin:100px auto 0;
+ /*fusion de bordes*/
+ border-collapse: collapse;
+}
+.board td{
+ width: 100px;
+ height: 100px;
+ border: 2px solid blue;
+ text-align: center;
+​
+}
+.board td:hover{
+ background-color: purple;
+}
